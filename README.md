@@ -127,7 +127,3 @@ The app will be available at `http://localhost:3000`.
 3. **Dynamic Karma Calculation**: Leaderboard computed from Like records, not stored values
 
 See [EXPLAINER.md](EXPLAINER.md) for detailed technical documentation.
-
-## License
-
-MIT
