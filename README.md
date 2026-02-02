@@ -2,7 +2,6 @@
 
 A full-stack community discussion platform with threaded comments, gamified karma system, and a dynamic 24-hour leaderboard.
 
-![Community Feed Screenshot](screenshot.png)
 
 ## Features
 
@@ -34,10 +33,12 @@ cd backend
 
 # Create virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/Scripts/activate  # Or: venv\bin\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+cp .env.example .env
 
 # Run migrations
 python manage.py migrate
